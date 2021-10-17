@@ -1,0 +1,42 @@
+#TicTacToeBoard .boardSquare{
+    width : 100px;
+    height : 100px;
+    display: grid;
+    place-content: center;
+}
+
+.Board_playing{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    width : 300px;
+    height: 300px;
+    background-color:rgb(27, 0, 53);
+    border: 5px;
+    border-style: groove;
+    color: white;
+    text-align : center; 
+    place-content: center;
+}
+
+.Board_won_X{
+    width : 300px;
+    height : 300px;
+    display: grid;
+    place-content: center;
+    border-style: groove;
+    background-color:rgb(139, 72, 46);
+    border: 5px;
+    border-style: double;
+}
+
+.Board_won_O{
+    width : 300px;
+    height : 300px;
+    display: grid;
+    place-content: center;
+    border-style: groove;
+    background-color:rgb(38, 33, 107);
+    border: 5px;
+    border-style: double;
+}

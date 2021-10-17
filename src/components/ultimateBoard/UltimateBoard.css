@@ -1,0 +1,13 @@
+.Ultimate_Board_playing{
+    display: grid;
+    grid-template-columns: repeat(3,310px);
+    grid-template-rows: repeat(3,310px);
+    width : 900px;
+    height: 100vh;
+    background-color:beige;
+    color: white;
+    text-align : center;   
+    position : relative;
+    padding: 100px;
+    float:left
+}

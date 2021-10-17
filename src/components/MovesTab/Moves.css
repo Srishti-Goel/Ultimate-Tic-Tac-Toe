@@ -1,0 +1,27 @@
+.SingleMove{
+    height: 50px;
+    width : calc(100% - 40px);
+    text-align: center;
+    position: relative;
+    padding : 20px;
+    background-color: rgb(40 107 230);
+    border-radius: 10px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+#MovesTab{
+    width : calc(100% - 1300px);
+    height: 100%;
+    background-color : rgb(38, 33, 107);
+    padding : 30px;
+    margin-right: 100px;
+    text-align: center;
+    float: right;
+    border-radius: 20px;
+    color: #ebfdff;
+}
